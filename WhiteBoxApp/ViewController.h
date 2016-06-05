@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *rowLabel;
+@property (weak, nonatomic) IBOutlet UILabel *columnLabel;
+@property (weak, nonatomic) IBOutlet UITextView *outputTextView;
 
+@property (weak, nonatomic) IBOutlet UIStepper *rowStepper;
+@property (weak, nonatomic) IBOutlet UIStepper *columnStepper;
+
+- (IBAction)actionChangeValue:(UIStepper *)sender;
+- (IBAction)actionEnter:(id)sender;
 @end
 

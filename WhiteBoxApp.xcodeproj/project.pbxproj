@@ -13,6 +13,7 @@
 		BA0FE2B81D043D76006EF5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0FE2B61D043D76006EF5EB /* Main.storyboard */; };
 		BA0FE2BA1D043D76006EF5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0FE2B91D043D76006EF5EB /* Assets.xcassets */; };
 		BA0FE2BD1D043D76006EF5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0FE2BB1D043D76006EF5EB /* LaunchScreen.storyboard */; };
+		BA0FE2C61D044DDB006EF5EB /* PVAlgebraMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0FE2C51D044DDB006EF5EB /* PVAlgebraMatrix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA0FE2B91D043D76006EF5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0FE2BC1D043D76006EF5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA0FE2BE1D043D76006EF5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0FE2C41D044DDB006EF5EB /* PVAlgebraMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAlgebraMatrix.h; sourceTree = "<group>"; };
+		BA0FE2C51D044DDB006EF5EB /* PVAlgebraMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAlgebraMatrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BA0FE2AC1D043D76006EF5EB /* WhiteBoxApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA0FE2C41D044DDB006EF5EB /* PVAlgebraMatrix.h */,
+				BA0FE2C51D044DDB006EF5EB /* PVAlgebraMatrix.m */,
 				BA0FE2B01D043D76006EF5EB /* AppDelegate.h */,
 				BA0FE2B11D043D76006EF5EB /* AppDelegate.m */,
 				BA0FE2B31D043D76006EF5EB /* ViewController.h */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					BA0FE2A91D043D76006EF5EB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2GS3DZHCM6;
 					};
 				};
 			};
@@ -150,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0FE2B51D043D76006EF5EB /* ViewController.m in Sources */,
+				BA0FE2C61D044DDB006EF5EB /* PVAlgebraMatrix.m in Sources */,
 				BA0FE2B21D043D76006EF5EB /* AppDelegate.m in Sources */,
 				BA0FE2AF1D043D76006EF5EB /* main.m in Sources */,
 			);
@@ -263,7 +270,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WhiteBoxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PAM.WhiteBoxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WhiteBoxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PAM.WhiteBoxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
